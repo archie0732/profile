@@ -57,7 +57,7 @@ export interface SkillCategory {
 
 export const personalInfo = {
   name: "Yu-Chi Hsu",
-  chineseName: "許又騏",
+  chineseName: "許育祁",
   handle: "4rch1e",
   githubHandle: "archie0732",
   title: "Undergraduate Researcher & Software Developer",
@@ -100,7 +100,7 @@ export const papers: Paper[] = [
     role: "第一作者 (First Author)",
     paperNumber: "Paper No. 50",
     year: "2026",
-    authors: ["Yu-Chi Hsu (許又騏)", "Chun-Fang Pan", "Chun-Ting Wu", "Yi-Wen Lin", "Meng-Yen Hsieh"],
+    authors: ["Yu-Chi Hsu (許育祁)", "Chun-Fang Pan", "Chun-Ting Wu", "Yi-Wen Lin", "Meng-Yen Hsieh"],
     firstAuthor: true,
     tags: ["Visual Recognition", "Tool-Augmented Generation (TAG)", "Computer Vision", "Dietary System", "Multimodal AI"],
     paperUrl: "https://tcse2026.seat.org.tw/%E8%AD%B0%E7%A8%8B/%E8%AB%96%E6%96%87%E8%AD%B0%E7%A8%8B",
@@ -118,7 +118,7 @@ export const papers: Paper[] = [
     conferenceBadge: "TANET 2026",
     role: "第一作者 (First Author)",
     year: "2026",
-    authors: ["Yu-Chi Hsu (許又騏)", "Meng-Yen Hsieh"],
+    authors: ["Yu-Chi Hsu (許育祁)", "Meng-Yen Hsieh"],
     firstAuthor: true,
     tags: ["RAG Retrieval Policy", "Version-Matching", "Evidence Selection", "Empirical Evaluation", "NLP"],
     paperUrl: "https://tanet2026.ntunhs.edu.tw/",

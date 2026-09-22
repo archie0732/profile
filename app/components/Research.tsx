@@ -82,7 +82,7 @@ export default function Research() {
                 <div className="mt-3 flex flex-wrap items-center gap-1.5 text-xs sm:text-sm text-zinc-400">
                   <span className="font-semibold text-zinc-500">作者 Authors:</span>
                   {paper.authors.map((author, index) => {
-                    const isSelf = author.includes("Yu-Chi Hsu") || author.includes("許又騏");
+                    const isSelf = author.includes("Yu-Chi Hsu") || author.includes("許育祁");
                     return (
                       <span
                         key={author}

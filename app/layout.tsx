@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yu-Chi Hsu (許又騏 / 4rch1e) — Portfolio & Research",
+  title: "Yu-Chi Hsu (許育祁 / 4rch1e) — Portfolio & Research",
   description:
     "Yu-Chi Hsu (archie0732) - Undergraduate researcher in RAG, AI Agents, Computer Vision and Software Engineer. First author of TCSE 2026 and TANET 2026 papers.",
   keywords: [
     "Yu-Chi Hsu",
-    "許又騏",
+    "許育祁",
     "4rch1e",
     "archie0732",
     "RAG",
