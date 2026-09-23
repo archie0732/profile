@@ -301,7 +301,7 @@ export const achievements: Achievement[] = [
     id: "topc-2024",
     year: "2024",
     title: "Taiwan Online Programming Contest (TOPC)",
-    award: "全國大賽 績優參賽",
+    award: "銅牌 (Bronze)",
     category: "competition",
   },
   {
@@ -314,15 +314,15 @@ export const achievements: Achievement[] = [
   {
     id: "pu-contest-2026",
     year: "2026",
-    title: "靜宜大學校園程式設計競賽",
-    award: "亞軍 (2nd Place Silver)",
+    title: "靜宜大學校園程式設計競賽 (PUPC)",
+    award: "銀牌 (Silver)",
     category: "competition",
   },
   {
     id: "pu-contest-2025",
     year: "2025",
-    title: "靜宜大學校園程式設計競賽",
-    award: "季軍 (3rd Place Bronze)",
+    title: "靜宜大學校園程式設計競賽 (PUPC)",
+    award: "銅牌 (Bronze)",
     category: "competition",
   },
 ];
