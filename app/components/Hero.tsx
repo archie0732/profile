@@ -161,16 +161,16 @@ export default function Hero() {
               {/* Quick Stat Highlights */}
               <div className="mt-5 grid grid-cols-2 gap-2 border-t border-zinc-800/90 pt-4 text-center">
                 <div className="rounded-lg bg-zinc-950/60 p-2 border border-zinc-800/50">
-                  <div className="text-base font-bold text-cyan-400">750+ ⭐</div>
-                  <div className="text-[10px] text-zinc-400">AI Agent 星數</div>
+                  <div className="text-base font-bold text-cyan-400">800+ ⭐</div>
+                  <div className="text-[10px] text-zinc-400">自研 Agent 星數</div>
                 </div>
                 <div className="rounded-lg bg-zinc-950/60 p-2 border border-zinc-800/50">
                   <div className="text-base font-bold text-emerald-400">2 篇</div>
                   <div className="text-[10px] text-zinc-400">第一作者研討會</div>
                 </div>
                 <div className="rounded-lg bg-zinc-950/60 p-2 border border-zinc-800/50">
-                  <div className="text-base font-bold text-purple-400">51.3k+ ⭐</div>
-                  <div className="text-[10px] text-zinc-400">貢獻 supervision</div>
+                  <div className="text-base font-bold text-purple-400">5+ 項 🚀</div>
+                  <div className="text-[10px] text-zinc-400">開源實質 PR 貢獻</div>
                 </div>
                 <div className="rounded-lg bg-zinc-950/60 p-2 border border-zinc-800/50">
                   <div className="text-base font-bold text-amber-400">20k+ 📦</div>

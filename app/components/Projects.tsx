@@ -5,7 +5,6 @@ import { selfProjects, SelfProject } from "@/data/portfolioData";
 import {
   Code2,
   ExternalLink,
-  Star,
   Sparkles,
   Bot,
   Eye,
@@ -28,6 +27,14 @@ export default function Projects() {
     { id: "tools", label: "工具與爬蟲套件", icon: Wrench },
     { id: "cp", label: "演算法與競賽", icon: Trophy },
   ];
+
+  const categoryLabels: Record<string, string> = {
+    ai: "AI & 智慧代理人",
+    cv: "電腦視覺 (CV)",
+    bots: "社群機器人",
+    tools: "開發工具 & API",
+    cp: "演算法與競賽",
+  };
 
   const filteredProjects = selfProjects.filter((project) => {
     if (selectedCategory === "all") return true;
@@ -88,22 +95,15 @@ export default function Projects() {
               }`}
             >
               <div>
-                {/* Header: Badge & Stars */}
-                <div className="flex items-center justify-between gap-2 mb-3">
-                  {project.badge ? (
-                    <span className="inline-flex items-center gap-1 rounded-md bg-emerald-500/10 border border-emerald-500/30 px-2 py-0.5 text-xs font-semibold text-emerald-400">
-                      {project.badge}
-                    </span>
-                  ) : (
-                    <span className="rounded-md bg-zinc-800 px-2 py-0.5 text-[11px] font-mono text-zinc-400 uppercase">
-                      {project.category}
-                    </span>
-                  )}
+                {/* Header: Clean Category Tag & Distinct Badge */}
+                <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
+                  <span className="rounded-md bg-zinc-800/80 px-2.5 py-0.5 text-[11px] font-medium text-zinc-300 border border-zinc-700/50">
+                    {categoryLabels[project.category] || project.category}
+                  </span>
 
-                  {typeof project.stars === "number" && project.stars > 0 && (
-                    <span className="inline-flex items-center gap-1 text-xs font-mono text-amber-400 bg-amber-500/10 border border-amber-500/20 px-2 py-0.5 rounded">
-                      <Star className="h-3 w-3 fill-amber-400" />
-                      {project.stars}
+                  {project.badge && (
+                    <span className="inline-flex items-center gap-1 rounded-md bg-emerald-500/10 border border-emerald-500/30 px-2.5 py-0.5 text-xs font-semibold text-emerald-400">
+                      {project.badge}
                     </span>
                   )}
                 </div>
