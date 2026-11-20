@@ -183,6 +183,19 @@ export default function Research() {
                     </a>
                   )}
 
+                  {paper.pdfUrl && (
+                    <a
+                      href={paper.pdfUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 rounded-lg bg-amber-500/10 border border-amber-500/30 px-3.5 py-1.5 text-xs font-semibold text-amber-300 hover:bg-amber-500/20 hover:border-amber-400 transition-all"
+                    >
+                      <FileText className="h-3.5 w-3.5" />
+                      <span>論文全文 PDF</span>
+                      <ExternalLink className="h-3 w-3" />
+                    </a>
+                  )}
+
                   {paper.codeUrl && (
                     <a
                       href={paper.codeUrl}

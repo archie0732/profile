@@ -16,6 +16,7 @@ export interface Paper {
   };
   tags: string[];
   paperUrl?: string;
+  pdfUrl?: string;
   codeUrl?: string;
 }
 
@@ -107,6 +108,7 @@ export const papers: Paper[] = [
     firstAuthor: true,
     tags: ["Visual Recognition", "Tool-Augmented Generation (TAG)", "Computer Vision", "Dietary System", "Multimodal AI"],
     paperUrl: "https://tcse2026.seat.org.tw/%E8%AD%B0%E7%A8%8B/%E8%AB%96%E6%96%87%E8%AD%B0%E7%A8%8B",
+    pdfUrl: "https://drive.google.com/file/d/18LsUlJ8XMgFLsip6dBTe1_AYWZG5pk76/view?usp=sharing",
     codeUrl: "https://github.com/archie0732/healthy-diet",
     abstracts: {
       zh: "本研究提出一套結合影像辨識與工具增強生成（Tool-Augmented Generation, TAG）的智慧飲食管理系統，使用者拍攝餐點照片後，系統可自動辨識食材並呼叫外部工具估算營養成分，再由生成模型給出個人化飲食建議。",
@@ -126,6 +128,7 @@ export const papers: Paper[] = [
     award: "🏆 最佳論文獎 Best Paper Award",
     tags: ["RAG Retrieval Policy", "Version-Matching", "Evidence Selection", "Empirical Evaluation", "NLP"],
     paperUrl: "https://tanet2026.ntunhs.edu.tw/",
+    pdfUrl: "https://drive.google.com/file/d/1o2k8XmToOIhGczNtFvBLSrEWdUUpyVkv/view?usp=sharing",
     codeUrl: "https://github.com/archie0732/healthy-diet-ai-agent",
     abstracts: {
       zh: "針對健康指引新舊版本並存的證據選取問題，提出依查詢意圖啟用版本配對的 RAG 檢索策略。在保留測試集的 20 題歷史比較查詢中，將必要證據 Recall@3 由 0.100 提升至 0.525，並以消融實驗驗證版本配對的貢獻。",
