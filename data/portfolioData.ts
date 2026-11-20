@@ -8,6 +8,7 @@ export interface Paper {
   year: string;
   authors: string[];
   firstAuthor: boolean;
+  award?: string;
   abstracts: {
     zh: string;
     en: string;
@@ -78,10 +79,10 @@ export const personalInfo = {
   },
   stats: [
     { label: "AI Agent 開源星數", value: "800+ Stars" },
-    { label: "研討會第一作者論文", value: "2 篇發表" },
+    { label: "研討會第一作者論文", value: "2 篇（1 篇最佳論文）" },
     { label: "NPM 套件累計下載量", value: "20,000+ 次" },
     { label: "Discord Bot 服務伺服器", value: "200+ 個" },
-    { label: "開源專案實質貢獻 PR", value: "5+ 項已合併/審查" },
+    { label: "開源專案實質貢獻 PR", value: "多項已合併/審查" },
     { label: "ICPC & AI 競賽殊榮", value: "5+ 項榮譽" },
   ],
   typingLines: [
@@ -122,6 +123,7 @@ export const papers: Paper[] = [
     year: "2026",
     authors: ["Yu-Chi Hsu (許育祁)", "Meng-Yen Hsieh"],
     firstAuthor: true,
+    award: "🏆 最佳論文獎 Best Paper Award",
     tags: ["RAG Retrieval Policy", "Version-Matching", "Evidence Selection", "Empirical Evaluation", "NLP"],
     paperUrl: "https://tanet2026.ntunhs.edu.tw/",
     codeUrl: "https://github.com/archie0732/healthy-diet-ai-agent",
@@ -199,10 +201,10 @@ export const selfProjects: SelfProject[] = [
   {
     id: "aicup-2025-aortic-valve",
     title: "AICUP 2025 - Aortic Valve Detection",
-    description: "AI CUP 2025 電腦斷層心臟肌肉影像分割競賽「主動脈瓣物件偵測」獲全國佳作（9/700），獨自完成從 YOLOv8 到 YOLO11 之對比實驗、資料前處理增強與模型訓練管道。",
+    description: "AI CUP 2025 電腦斷層心臟肌肉影像分割競賽「主動脈瓣物件偵測」獲教育部佳作（前 3.7%），負責 YOLOv8 到 YOLO11 的對比實驗、資料前處理增強與模型訓練管道。",
     category: "cv",
     featured: false,
-    badge: "🏅 AI CUP 全國第 9 名 / 700 隊",
+    badge: "🏅 AI CUP 教育部佳作（前 3.7%）",
     tech: ["Python", "PyTorch", "Computer Vision", "Medical Imaging", "YOLOv8/YOLO11"],
     repoUrl: "https://github.com/archie0732/AICUP-2025-Aortic-Valve-Detection",
   },
@@ -323,10 +325,17 @@ export const contributions: Contribution[] = [
 
 export const achievements: Achievement[] = [
   {
+    id: "tanet-2026-best-paper",
+    year: "2026",
+    title: "TANET 2026 台灣網際網路研討會",
+    award: "最佳論文獎 (Best Paper Award) · 第一作者",
+    category: "academic",
+  },
+  {
     id: "aicup",
     year: "2025",
     title: "教育部人工智慧競賽 (AI CUP 2025)",
-    award: "佳作 (Honorable Mention) · 全國第 9 名 / 700 隊",
+    award: "教育部佳作 · 前 3.7%",
     category: "competition",
   },
   {
@@ -354,6 +363,13 @@ export const achievements: Achievement[] = [
     id: "pu-contest-2025",
     year: "2025",
     title: "靜宜大學校園程式設計競賽 (PUPC 2025)",
+    award: "Honorable Mention",
+    category: "competition",
+  },
+  {
+    id: "pu-contest-2024",
+    year: "2024",
+    title: "靜宜大學校園程式設計競賽 (PUPC 2024)",
     award: "銅牌 (Bronze)",
     category: "competition",
   },

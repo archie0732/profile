@@ -32,7 +32,7 @@ export default function Research() {
             </span>
           </h2>
           <p className="text-sm sm:text-base text-zinc-400 max-w-3xl leading-relaxed">
-            聚焦於檢索增強生成（RAG）、多模態視覺與工具調用（TAG）之學術研究。以第一作者發表 2 篇研討會論文，研究成果均附有實際落地之開源專案與實證評估。
+            聚焦於檢索增強生成（RAG）、多模態視覺與工具調用（TAG）之學術研究。以第一作者發表 2 篇研討會論文（其中 TANET 2026 獲最佳論文獎），研究成果均附有實際落地之開源專案與實證評估。
           </p>
         </div>
 
@@ -61,6 +61,12 @@ export default function Research() {
                     <Sparkles className="h-3 w-3" />
                     {paper.role}
                   </span>
+
+                  {paper.award && (
+                    <span className="inline-flex items-center gap-1 rounded-md bg-amber-500/15 border border-amber-400/50 px-2.5 py-1 text-xs font-bold text-amber-300">
+                      {paper.award}
+                    </span>
+                  )}
 
                   {paper.paperNumber && (
                     <span className="rounded-md bg-amber-500/10 border border-amber-500/30 px-2 py-1 text-xs font-mono text-amber-400">

@@ -19,7 +19,7 @@ export default function Footer() {
               Let&apos;s build something together
             </h3>
             <p className="text-sm text-zinc-400 max-w-md leading-relaxed">
-              歡迎學術研究合作、實驗室交流、研究所升學引薦或開源專案討論。隨時透過 Email 或 GitHub 與我聯繫！
+              歡迎研究交流或開源專案討論，可以透過 Email 或 GitHub 與我聯繫。
             </p>
             <div className="flex items-center gap-3 pt-2">
               <a

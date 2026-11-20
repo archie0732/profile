@@ -165,11 +165,11 @@ export default function Hero() {
                   <div className="text-[10px] text-zinc-400">自研 Agent 星數</div>
                 </div>
                 <div className="rounded-lg bg-zinc-950/60 p-2 border border-zinc-800/50">
-                  <div className="text-base font-bold text-emerald-400">2 篇</div>
-                  <div className="text-[10px] text-zinc-400">第一作者研討會</div>
+                  <div className="text-base font-bold text-emerald-400">2 篇 🏆</div>
+                  <div className="text-[10px] text-zinc-400">第一作者論文 · 含最佳論文</div>
                 </div>
                 <div className="rounded-lg bg-zinc-950/60 p-2 border border-zinc-800/50">
-                  <div className="text-base font-bold text-purple-400">5+ 項 🚀</div>
+                  <div className="text-base font-bold text-purple-400">多項 🚀</div>
                   <div className="text-[10px] text-zinc-400">開源實質 PR 貢獻</div>
                 </div>
                 <div className="rounded-lg bg-zinc-950/60 p-2 border border-zinc-800/50">
