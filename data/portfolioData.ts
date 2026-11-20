@@ -136,6 +136,22 @@ export const papers: Paper[] = [
       ja: "新旧バージョンの健康ガイドラインが混在する状況におけるエビデンス選択の課題に対し、クエリ意図に基づくバージョンマッチング型RAG検索戦略を提案する。テストセットに残された20件の過去の比較クエリにおいて、必要とされるエビデンスのRecall@3を0.100から0.525へと向上させ、さらにアブレーション実験を通じてバージョンマッチングの貢献度を検証した。",
     },
   },
+  {
+    id: "mtap-under-review",
+    title: "VerHealth Agent: A Multimodal Framework for Personalized Dietary Management with Conditional Version-Aware Retrieval",
+    conference: "Multimedia Tools and Applications（Springer 期刊）",
+    conferenceBadge: "MTAP · 審查中 Under Review",
+    role: "第二作者 (Second Author)",
+    year: "2026",
+    authors: ["Meng-Yen Hsieh", "Yu-Chi Hsu (許育祁)"],
+    firstAuthor: false,
+    tags: ["Multimodal AI", "Visual Recognition", "Version-Aware RAG", "Dietary Management", "Journal Submission"],
+    abstracts: {
+      zh: "本期刊稿件整合前兩篇研討會論文，將視覺辨識、工具增強生成與條件式版本感知檢索整合為完整的個人化飲食管理多模態框架。目前審查中。",
+      en: "This journal submission integrates the two conference papers above into a unified multimodal framework for personalized dietary management, combining visual recognition, tool-augmented generation, and conditional version-aware retrieval. Currently under review.",
+      ja: "本論文は上記2本の会議論文を統合し、画像認識・ツール拡張生成・条件付きバージョン認識検索を組み合わせた、個人向け食事管理のためのマルチモーダルフレームワークを提案する。現在査読中。",
+    },
+  },
 ];
 
 export const selfProjects: SelfProject[] = [
